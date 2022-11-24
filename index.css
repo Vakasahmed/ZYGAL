@@ -1,0 +1,53 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: Verdana, sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.select{
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+}
+.input{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left:10px ;
+}
+
+#enterDate{
+    height: 40px;
+}
+#enterbtn{
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color: rgb(57, 139, 220);
+    color: white;
+    cursor: pointer;
+}
+table{
+    width: 50vw;
+}
+td{
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+}
+tr td  {
+    border: 1px solid black;
+    padding: 10px 25px;
+}
